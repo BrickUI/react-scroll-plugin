@@ -1,0 +1,27 @@
+.horizontal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #5bc0de;
+}
+
+.horizontal ul {
+  margin: 0;
+  padding: 0;
+  width: 3000px;
+  list-style: none;
+}
+
+.horizontal ul li {
+  float: left;
+  width: 98px;
+  border: 1px solid #ccc;
+  line-height: 100px;
+  background-color: #fff;
+}
+
+.horizontal ul li:nth-child(even) {
+  background-color: #f2f2f2;
+}
